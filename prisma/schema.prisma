@@ -1,0 +1,56 @@
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "sqlite"
+  url      = env("DATABASE_URL")
+}
+
+model Conversation {
+  id        String   @id @default(cuid())
+  title     String
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+  messages  Message[]
+}
+
+model Message {
+  id             String       @id @default(cuid())
+  role           String
+  content        String
+  conversationId String
+  conversation   Conversation @relation(fields: [conversationId], references: [id], onDelete: Cascade)
+  createdAt      DateTime     @default(now())
+}
+
+model GeneratedImage {
+  id        String   @id @default(cuid())
+  prompt    String
+  size      String
+  imageB64  String
+  createdAt DateTime @default(now())
+}
+
+model SearchQuery {
+  id           String   @id @default(cuid())
+  query        String
+  resultsCount Int
+  createdAt    DateTime @default(now())
+}
+
+model TTSRequest {
+  id        String   @id @default(cuid())
+  text      String
+  voice     String
+  speed     Float
+  createdAt DateTime @default(now())
+}
+
+model VisionAnalysis {
+  id        String   @id @default(cuid())
+  imageUrl  String
+  question  String
+  analysis  String
+  createdAt DateTime @default(now())
+}
