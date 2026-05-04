@@ -1,7 +1,7 @@
 # Z.ai PowerHub v3.0 — Worklog
 
 ## Project Status: ✅ STABLE & DEPLOYED
-- GitHub: https://github.com/rajsaraswati-jatavv/z-ai-powerhub (PUBLIC)
+- GitHub: https://github.com/T3RMUXK1NG/z-ai-powerhub (PUBLIC)
 - Dev server running on port 3000 — HTTP 200 ✅
 - ESLint: 0 errors, only warnings (unused imports, img tags)
 - All 7 API endpoints working

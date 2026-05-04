@@ -59,7 +59,7 @@
 
 ```bash
 # Clone the repository
-git clone https://github.com/rajsaraswati-jatavv/z-ai-powerhub.git
+git clone https://github.com/T3RMUXK1NG/z-ai-powerhub.git
 cd z-ai-powerhub
 
 # Install dependencies
@@ -155,10 +155,10 @@ z-ai-powerhub/
 
 ## 👤 Author
 
-**Rajsaraswati Jatav (T3rmuxk1ng)**
+**T3RMUXK1NG (T3rmuxk1ng)**
 
 - YouTube: [https://youtube.com/@T3rmuxk1ng](https://youtube.com/@T3rmuxk1ng)
-- GitHub: [rajsaraswati-jatavv](https://github.com/rajsaraswati-jatavv)
+- GitHub: [T3RMUXK1NG](https://github.com/T3RMUXK1NG)
 
 ---
 
@@ -172,6 +172,6 @@ This project is licensed under the MIT License.
 
 **If you found this project useful, give it a star!**
 
-[YouTube](https://youtube.com/@T3rmuxk1ng) | [GitHub](https://github.com/rajsaraswati-jatavv)
+[YouTube](https://youtube.com/@T3rmuxk1ng) | [GitHub](https://github.com/T3RMUXK1NG)
 
 </div>
